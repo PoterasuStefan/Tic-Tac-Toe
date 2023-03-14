@@ -81,7 +81,7 @@ namespace WindowsFormsApp4
                 MessageBox.Show("The winner is " + label3.Text);
             }
             //diagonal
-            if (label1.Text.Equals(label4.Text) && label4.Text.Equals(label9.Text) && label1.Text.Length == 1)
+            if (label1.Text.Equals(label5.Text) && label5.Text.Equals(label9.Text) && label1.Text.Length == 1)
             {
                 MessageBox.Show("The winner is " + label1.Text);
             }
